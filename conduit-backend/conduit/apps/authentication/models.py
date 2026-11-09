@@ -48,9 +48,8 @@ class UserManager(BaseUserManager):
             'DJANGO_SUPERUSER_PASSWORD', '')
         if len(SUPER_USER_PASSWORD) >= 4:
             password = SUPER_USER_PASSWORD
-        else:
-            print('Setting default password since no superuser password was provided.')
-            password = 'securepass'
+        if not password:
+            raise ValueError('Superusers must have a password.')
 
         user = self.create_user(username, email, password)
         user.is_superuser = True
