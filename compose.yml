@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     image: conduit-backend:1.2.0
     expose:
-      - "${BACKEND_PORT:-8000}"
+      - "8000"
     env_file:
       - ./conduit-backend/.env
     environment:
