@@ -1,0 +1,157 @@
+# ==========================================
+# Python - Compiled / Optimized Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Python - C Extensions
+# ==========================================
+*.so
+
+# ==========================================
+# Python - Distribution / Packaging
+# ==========================================
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Python - PyInstaller
+# ==========================================
+*.manifest
+*.spec
+
+# ==========================================
+# Python - Installer Logs
+# ==========================================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Python - Testing / Coverage
+# ==========================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# ==========================================
+# Python - Translations
+# ==========================================
+*.mo
+*.pot
+
+# ==========================================
+# Django
+# ==========================================
+*.log
+local_settings.py
+staticfiles/
+
+# ==========================================
+# Flask / Scrapy
+# ==========================================
+instance/
+.webassets-cache/
+.scrapy/
+
+# ==========================================
+# Documentation / Build Tools
+# ==========================================
+docs/_build/
+target/
+.ipynb_checkpoints/
+
+# ==========================================
+# Python - Version / Virtual Environments
+# ==========================================
+.python-version
+venv/
+.venv/
+ENV/
+
+# ==========================================
+# Python - Development Tools
+# ==========================================
+.spyderproject
+.ropeproject
+
+# ==========================================
+# Celery
+# ==========================================
+celerybeat-schedule
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# ==========================================
+# SQLite
+# ==========================================
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# ==========================================
+# Angular / Node.js
+# ==========================================
+node_modules/
+.angular/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Docker - Local Persistent Data
+# ==========================================
+docker-data/
+postgres-data/
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating System
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
